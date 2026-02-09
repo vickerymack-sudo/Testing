@@ -69,13 +69,22 @@ const fetchQuestions = async (level) => {
   try {
     const response = await fetch(`/api/questions?level=${level}`);
     if (!response.ok) {
-      throw new Error("Unable to load questions.");
+      throw new Error("API unavailable");
     }
     const data = await response.json();
     questions = shuffle(data.questions);
   } catch (error) {
-    questions = [];
-    questionText.textContent = "Unable to load questions. Please try again.";
+    try {
+      const fallbackResponse = await fetch("data/questions.json");
+      if (!fallbackResponse.ok) {
+        throw new Error("Unable to load fallback questions.");
+      }
+      const fallbackData = await fallbackResponse.json();
+      questions = shuffle(fallbackData[level] || []);
+    } catch (fallbackError) {
+      questions = [];
+      questionText.textContent = "Unable to load questions. Please try again.";
+    }
   } finally {
     isLoading = false;
     startBtn.disabled = false;
