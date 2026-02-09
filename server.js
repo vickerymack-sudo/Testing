@@ -6,7 +6,7 @@ const questionBank = require("./data/questions.json");
 
 const port = process.env.PORT || 3000;
 const baseDir = __dirname;
-const publicFiles = new Set(["/", "/index.html", "/app.js", "/style.css"]);
+const publicFiles = new Set(["/", "/index.html", "/app.js", "/style.css", "/data/questions.json"]);
 const contentTypes = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
