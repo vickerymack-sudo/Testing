@@ -54,6 +54,61 @@
       ],
       "answer": 1,
       "explanation": "14 CFR 91.119(b) sets 1,000 feet above highest obstacle within 2,000 feet over congested areas."
+    },
+    {
+      "question": "What is the minimum visibility for VFR flight in Class E airspace below 10,000 feet MSL?",
+      "choices": [
+        "1 statute mile",
+        "3 statute miles",
+        "5 statute miles",
+        "2 statute miles"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.155 requires 3 statute miles visibility in Class E airspace below 10,000 feet MSL."
+    },
+    {
+      "question": "Which equipment is required for VFR day flight under 14 CFR 91.205?",
+      "choices": [
+        "Landing light",
+        "Anti-collision lights",
+        "Fuel gauge indicating quantity for each tank",
+        "Position lights"
+      ],
+      "answer": 2,
+      "explanation": "Day VFR equipment includes a fuel gauge indicating the quantity in each tank (91.205(b))."
+    },
+    {
+      "question": "How long is a flight review valid for a private pilot?",
+      "choices": [
+        "12 calendar months",
+        "24 calendar months",
+        "36 calendar months",
+        "48 calendar months"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.56 requires a flight review every 24 calendar months."
+    },
+    {
+      "question": "What is the minimum age to obtain a private pilot certificate for airplanes?",
+      "choices": [
+        "16 years old",
+        "17 years old",
+        "18 years old",
+        "21 years old"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.103 sets the minimum age for a private pilot certificate at 17 years old."
+    },
+    {
+      "question": "Before each flight, the pilot in command must:",
+      "choices": [
+        "Ensure the aircraft has been inspected within the preceding 50 hours",
+        "Become familiar with all available information concerning the flight",
+        "File a flight plan for all cross-country flights",
+        "Review the aircraft logbooks for the past 24 months"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.103 requires the PIC to become familiar with all available information before flight."
     }
   ],
   "commercial": [
@@ -111,6 +166,61 @@
       ],
       "answer": 0,
       "explanation": "Tailwheel passenger currency requires 3 takeoffs and landings in a tailwheel aircraft (61.57)."
+    },
+    {
+      "question": "What is the minimum age to obtain a commercial pilot certificate for airplanes?",
+      "choices": [
+        "17 years old",
+        "18 years old",
+        "21 years old",
+        "23 years old"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.123 sets the minimum age for a commercial pilot certificate at 18 years old."
+    },
+    {
+      "question": "How many hours of flight time are required for a commercial pilot certificate under Part 61?",
+      "choices": [
+        "190 hours total time",
+        "200 hours total time",
+        "250 hours total time",
+        "300 hours total time"
+      ],
+      "answer": 2,
+      "explanation": "14 CFR 61.129 requires 250 hours total time for a commercial pilot certificate."
+    },
+    {
+      "question": "What is the required visibility for VFR flight above 10,000 feet MSL?",
+      "choices": [
+        "3 statute miles",
+        "5 statute miles",
+        "1 statute mile",
+        "2 statute miles"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.155 requires 5 statute miles visibility above 10,000 feet MSL."
+    },
+    {
+      "question": "Under 14 CFR 61.57, what is required to regain IFR currency after the 6-month grace period?",
+      "choices": [
+        "A flight review with any CFI",
+        "An instrument proficiency check",
+        "A commercial practical test",
+        "A night currency checkride"
+      ],
+      "answer": 1,
+      "explanation": "After the 6-month grace period, an instrument proficiency check is required (61.57(d))."
+    },
+    {
+      "question": "What is the maximum time a commercial pilot may act as PIC under Part 91 without a flight review?",
+      "choices": [
+        "12 calendar months",
+        "18 calendar months",
+        "24 calendar months",
+        "36 calendar months"
+      ],
+      "answer": 2,
+      "explanation": "A flight review is required every 24 calendar months per 14 CFR 61.56."
     }
   ],
   "cfi": [
@@ -168,6 +278,61 @@
       ],
       "answer": 1,
       "explanation": "14 CFR 61.56 requires flight review every 24 calendar months."
+    },
+    {
+      "question": "How often must a CFI renew or reinstate their instructor certificate?",
+      "choices": [
+        "Every 12 calendar months",
+        "Every 24 calendar months",
+        "Every 36 calendar months",
+        "Every 48 calendar months"
+      ],
+      "answer": 1,
+      "explanation": "CFI certificates must be renewed or reinstated every 24 calendar months (61.197)."
+    },
+    {
+      "question": "A CFI may endorse a student for a solo cross-country flight when the student has:",
+      "choices": [
+        "Completed the required training and a pre-solo written test",
+        "Logged 10 hours of solo time",
+        "Passed the private pilot knowledge test",
+        "Completed 3 hours of night flight"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 61.93 requires training and a pre-solo written test before a solo cross-country endorsement."
+    },
+    {
+      "question": "When instructing in an aircraft, a CFI must:",
+      "choices": [
+        "Hold a commercial pilot certificate or ATP in that aircraft category and class",
+        "Log all instruction as dual received",
+        "Have a valid medical certificate at all times",
+        "Be the owner of the aircraft"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 61.183 requires a CFI to hold at least a commercial or ATP certificate in the aircraft category/class."
+    },
+    {
+      "question": "A CFI may renew their certificate by completing an approved FIRC within:",
+      "choices": [
+        "3 calendar months before expiration",
+        "6 calendar months before expiration",
+        "12 calendar months before expiration",
+        "Any time after expiration"
+      ],
+      "answer": 1,
+      "explanation": "An FAA-approved FIRC may be completed within 6 calendar months preceding expiration (61.197)."
+    },
+    {
+      "question": "When providing flight instruction, a CFI must ensure the aircraft has:",
+      "choices": [
+        "A current annual inspection",
+        "A current annual inspection and a 100-hour inspection if required",
+        "Only a current 50-hour inspection",
+        "No inspection requirement if used for training"
+      ],
+      "answer": 1,
+      "explanation": "Aircraft used for hire, including flight instruction, require an annual and 100-hour inspection (91.409)."
     }
   ]
 }
