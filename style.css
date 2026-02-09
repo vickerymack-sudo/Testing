@@ -35,6 +35,8 @@ body {
   padding: 24px;
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(45, 60, 88, 0.12);
+  position: relative;
+  overflow: hidden;
 }
 
 .eyebrow {
@@ -53,6 +55,77 @@ body {
 .subtitle {
   color: #4d566c;
   line-height: 1.6;
+}
+
+.hero-art {
+  display: grid;
+  gap: 18px;
+  align-items: center;
+}
+
+.flight-path {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f2f6ff, #ffffff);
+  border: 1px solid #e1e6f1;
+}
+
+.plane-icon {
+  width: 88px;
+  height: 88px;
+  filter: drop-shadow(0 12px 18px rgba(27, 59, 255, 0.2));
+}
+
+.contrail {
+  flex: 1;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(27, 59, 255, 0.2), rgba(27, 59, 255, 0));
+  position: relative;
+}
+
+.contrail::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(27, 59, 255, 0.3);
+}
+
+.fleet-cards {
+  display: grid;
+  gap: 12px;
+}
+
+.fleet-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #f8f9ff;
+  border: 1px solid #e1e6f1;
+  box-shadow: 0 10px 18px rgba(45, 60, 88, 0.08);
+}
+
+.fleet-card span {
+  font-size: 1.4rem;
+}
+
+.fleet-title {
+  font-weight: 700;
+  color: #1d2433;
+}
+
+.fleet-subtitle {
+  font-size: 0.9rem;
+  color: #5b6478;
 }
 
 .scoreboard {
