@@ -1,0 +1,173 @@
+{
+  "private": [
+    {
+      "question": "You plan to act as PIC carrying passengers in daytime. What recent flight experience is required?",
+      "choices": [
+        "3 takeoffs and landings in the preceding 90 days in the same category/class",
+        "5 takeoffs and landings in the preceding 6 months in any aircraft",
+        "A flight review in the preceding 12 calendar months",
+        "3 hours of instrument time in the preceding 90 days"
+      ],
+      "answer": 0,
+      "explanation": "FAR 61.57 requires 3 takeoffs and landings in the preceding 90 days in the same category/class to carry passengers."
+    },
+    {
+      "question": "Which document must be aboard the aircraft for VFR flight?",
+      "choices": [
+        "Pilot logbook",
+        "Airworthiness certificate",
+        "FAA Practical Test Standards",
+        "Weight and balance training endorsement"
+      ],
+      "answer": 1,
+      "explanation": "ARROW: Airworthiness certificate must be aboard per 14 CFR 91.203."
+    },
+    {
+      "question": "For VFR day flight, what fuel reserve is required?",
+      "choices": [
+        "30 minutes at normal cruising speed",
+        "45 minutes at normal cruising speed",
+        "60 minutes at holding speed",
+        "No reserve required if flight is less than 50 NM"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 91.151 requires 30 minutes of fuel for VFR day."
+    },
+    {
+      "question": "A private pilot may share operating expenses with passengers provided the pilot pays at least:",
+      "choices": [
+        "25% of the direct operating expenses",
+        "50% of the direct operating expenses",
+        "A pro-rata share of the direct operating expenses",
+        "All fuel and oil costs only"
+      ],
+      "answer": 2,
+      "explanation": "Private pilots must pay at least their pro-rata share of fuel, oil, airport expenses, or rental fees (61.113)."
+    },
+    {
+      "question": "Minimum safe altitude over congested areas is:",
+      "choices": [
+        "500 feet AGL",
+        "1,000 feet above the highest obstacle within a horizontal radius of 2,000 feet",
+        "1,000 feet AGL",
+        "2,000 feet above terrain"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 91.119(b) sets 1,000 feet above highest obstacle within 2,000 feet over congested areas."
+    }
+  ],
+  "commercial": [
+    {
+      "question": "A commercial pilot may act as PIC carrying persons or property for compensation when:",
+      "choices": [
+        "Operating under Part 91 and holding at least a second-class medical",
+        "Operating under Part 135 without a medical",
+        "Operating under Part 91 but only with a CFI on board",
+        "Operating under Part 61 with no recent flight experience"
+      ],
+      "answer": 0,
+      "explanation": "Commercial pilots can carry persons/property for compensation under Part 91 with appropriate medical and endorsements."
+    },
+    {
+      "question": "What are the instrument currency requirements to act as PIC under IFR?",
+      "choices": [
+        "6 approaches, holding, and intercepting/tracking in the preceding 6 calendar months",
+        "3 approaches in the preceding 90 days",
+        "A proficiency check every 12 months",
+        "Night currency only"
+      ],
+      "answer": 0,
+      "explanation": "14 CFR 61.57(c) requires 6 approaches, holding, and intercepting/tracking in 6 calendar months."
+    },
+    {
+      "question": "Which operation requires compliance with 14 CFR 91.211 (supplemental oxygen)?",
+      "choices": [
+        "Cabin pressure altitude 12,500 feet for more than 30 minutes",
+        "Cabin pressure altitude 8,000 feet for more than 1 hour",
+        "Cabin pressure altitude 10,000 feet for more than 2 hours",
+        "Cabin pressure altitude 14,000 feet for more than 15 minutes"
+      ],
+      "answer": 0,
+      "explanation": "91.211: oxygen required for crew above 12,500 feet for more than 30 minutes."
+    },
+    {
+      "question": "How long must aircraft maintenance records be retained for annual inspection?",
+      "choices": [
+        "For 12 calendar months",
+        "For 24 calendar months",
+        "Until the next annual or 100-hour inspection",
+        "For the life of the aircraft"
+      ],
+      "answer": 2,
+      "explanation": "Records of annual/100-hour inspections must be retained until superseded by next inspection (91.417)."
+    },
+    {
+      "question": "A commercial pilot may carry passengers in tailwheel airplanes only if within the preceding 90 days:",
+      "choices": [
+        "3 takeoffs and landings in a tailwheel aircraft",
+        "5 takeoffs and landings in any aircraft",
+        "3 hours of dual instruction",
+        "A flight review in a tailwheel aircraft"
+      ],
+      "answer": 0,
+      "explanation": "Tailwheel passenger currency requires 3 takeoffs and landings in a tailwheel aircraft (61.57)."
+    }
+  ],
+  "cfi": [
+    {
+      "question": "When providing flight instruction, a CFI must endorse a student pilot's logbook for solo flight:",
+      "choices": [
+        "Once every 90 days",
+        "Every 30 days",
+        "Every 60 days",
+        "Every 12 months"
+      ],
+      "answer": 1,
+      "explanation": "Solo endorsements for student pilots are valid for 90 days for repeated solo, but each specific make/model endorsement must be within 30 days (61.87)."
+    },
+    {
+      "question": "A CFI renewal can be accomplished by:",
+      "choices": [
+        "Passing a practical test for any certificate or rating",
+        "Logging 100 hours of dual given in 24 months",
+        "Completing an FAA-approved flight instructor refresher course",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "CFI renewal options include checkride, 100 hours of instruction, or FIRC (61.197)."
+    },
+    {
+      "question": "A student pilot can carry a passenger if:",
+      "choices": [
+        "The passenger is a CFI",
+        "The passenger is a safety pilot",
+        "The passenger is a pilot examiner",
+        "A student pilot may not carry passengers"
+      ],
+      "answer": 3,
+      "explanation": "Student pilots are prohibited from carrying passengers (61.89)."
+    },
+    {
+      "question": "A CFI may log PIC time while giving instruction when:",
+      "choices": [
+        "Acting as the sole manipulator of the controls",
+        "Instructing in an aircraft for which they are rated",
+        "Instructing in an aircraft with no medical certificate",
+        "Only when the student is not rated"
+      ],
+      "answer": 1,
+      "explanation": "CFIs log PIC while instructing in an aircraft for which they are rated (61.51)."
+    },
+    {
+      "question": "An endorsement for a flight review is valid for:",
+      "choices": [
+        "12 calendar months",
+        "24 calendar months",
+        "36 calendar months",
+        "Until the next medical expiration"
+      ],
+      "answer": 1,
+      "explanation": "14 CFR 61.56 requires flight review every 24 calendar months."
+    }
+  ]
+}

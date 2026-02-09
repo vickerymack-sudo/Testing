@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aviation Regulations Mastery Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Online FAA Regulation Quiz Game</p>
+        <h1>Aviation Regulations Mastery</h1>
+        <p class="subtitle">
+          Prep for Private, Commercial, and CFI knowledge checks with a timed, scenario-driven quiz
+          that keeps you flying through the FARs.
+        </p>
+      </div>
+      <div class="scoreboard">
+        <div>
+          <span class="label">Level</span>
+          <strong id="levelLabel">Private Pilot</strong>
+        </div>
+        <div>
+          <span class="label">Score</span>
+          <strong id="scoreLabel">0</strong>
+        </div>
+        <div>
+          <span class="label">Streak</span>
+          <strong id="streakLabel">0</strong>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="Game controls">
+      <div class="level-select" role="group" aria-label="Select training level">
+        <button class="level-button active" data-level="private">Private</button>
+        <button class="level-button" data-level="commercial">Commercial</button>
+        <button class="level-button" data-level="cfi">CFI</button>
+      </div>
+      <div class="control-actions">
+        <button id="startBtn" class="primary">Start Mission</button>
+        <button id="resetBtn" class="ghost">Reset</button>
+      </div>
+    </section>
+
+    <section class="mission" aria-live="polite">
+      <div class="mission-card">
+        <div class="mission-header">
+          <p id="missionCounter">Mission 1 of 5</p>
+          <div class="timer" aria-label="Time remaining">
+            <span>⏱</span>
+            <strong id="timerLabel">30s</strong>
+          </div>
+        </div>
+        <h2 id="questionText">Choose a level and hit Start Mission to begin.</h2>
+        <div id="choices" class="choices" role="list"></div>
+      </div>
+      <aside class="flight-log">
+        <h3>Flight Log</h3>
+        <ul id="logList"></ul>
+      </aside>
+    </section>
+
+    <section class="briefing" aria-label="Study tips">
+      <div>
+        <h3>How scoring works</h3>
+        <p>
+          Answer quickly for a time bonus. Each correct response earns base points plus a streak
+          bonus. Misses reset your streak.
+        </p>
+      </div>
+      <div>
+        <h3>FAA references to review</h3>
+        <ul>
+          <li>14 CFR 61: Certification &amp; eligibility</li>
+          <li>14 CFR 91: General operating rules</li>
+          <li>FAA Practical Test Standards / ACS</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Accessibility</h3>
+        <p>
+          Use Tab and Enter to navigate. The timer pauses between missions so you can study the
+          explanations.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
